@@ -8,7 +8,7 @@ Mise en page est libre mais vous devez penser à l'expérience utilisateur.
 Fonctionnalités à mettre en place :
 
 1. Afficher la date du jour (format avec le nom du jour en français)
-2. La liste des veilles (afficher toute la liste depuis la variable `veilles` (à trouver dans fichier `veilles.js`))
+2. La liste des veilles (afficher toute la liste depuis la variable `veilles` (à trouver dans fichier `js/veilles.js`))
 
 - le titre
 - la catégorie
