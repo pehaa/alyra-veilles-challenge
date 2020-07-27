@@ -1,6 +1,6 @@
 # Alyra Veilles Challenge
 
-La référence [veilles.mp4](https://wptemplates.pehaa.com/assets/alyra/veilles.mp4) - vous la trouverez aussi dans le dossier assets avec quelques captures d'écran en plus.
+La référence [veilles.mp4](https://wptemplates.pehaa.com/assets/alyra/veilles.mp4) - vous la trouverez aussi dans le dossier `assets` avec quelques captures d'écran en plus.
 
 Vous utiliser bootstrap 5 pour les styles de ce document, vous pouvez personnaliser le rendu.
 Mise en page est libre mais vous devez penser à l'expérience utilisateur.
