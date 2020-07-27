@@ -16,13 +16,13 @@ Fonctionnalités à mettre en place :
 
 3. Possibilité de trier les veilles dans l'ordre alphabétique AZ et ZA ainsi que par date. Le tri par date est le tri par défaut
 
-- utiliser un élément select
+- utiliser un élément `select`
 
 4. Possiblité de filtrer uniquement des veilles à venir
 
-- utiliser un checkbox
+- utiliser un `checkbox`
 
-5. Élément select avec options qui correspondent aux catégories des veilles (la liste déroulante des catégories uniques)
+5. Élément `select` avec options qui correspondent aux catégories des veilles (la liste déroulante des catégories uniques)
 
 6. Possibilité des filter les veilles par catégorie
 
