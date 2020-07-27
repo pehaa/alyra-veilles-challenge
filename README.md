@@ -24,6 +24,6 @@ Fonctionnalités à mettre en place :
 
 5. Élément `select` avec options qui correspondent aux catégories des veilles (la liste déroulante des catégories uniques)
 
-6. Possibilité des filter les veilles par catégorie
+6. Possibilité de filtrer les veilles par catégorie
 
 Bon courage 💪!!!
