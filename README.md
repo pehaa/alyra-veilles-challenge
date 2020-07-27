@@ -12,7 +12,7 @@ Fonctionnalités à mettre en place :
 
 - le titre
 - la catégorie
-- la date en format comme dans la vidéo
+- la date en format comme dans la vidéo ou sur des captures d'écran
 
 3. Possibilité de trier les veilles dans l'ordre alphabétique AZ et ZA ainsi que par date. Le tri par date est le tri par défaut
 
