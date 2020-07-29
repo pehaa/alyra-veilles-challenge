@@ -9,7 +9,7 @@ Vous utilisez la bibliothèque JavaScript - Moment.js et son extension moment-wi
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
-<script src="https://momentjs.com/downloads/moment-with-locales.min.js></script>
+<script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
 ```
 
 Fonctionnalités à mettre en place :
