@@ -1,11 +1,11 @@
-const veilles = [
+const entries = [
   { subject: "OpenSource", date: "03/06/2020", category: "WEB" },
   { subject: "HTML 5", date: "04/06/2020", category: "DEV WEB" },
   { subject: "Ubuntu", date: "05/06/2020", category: "DEV" },
   {
     subject: "Chrome VS Mozilla",
     date: "08/06/2020",
-    category: "NAVIGATEUR WEB",
+    category: "NAVIGATEUR WEB"
   },
   { subject: "CSS", date: "09/06/2020", category: "DEV WEB" },
   { subject: "SASS", date: "10/06/2020", category: "DEV WEB" },
@@ -20,30 +20,30 @@ const veilles = [
   {
     subject: "Les Méthodes Agile",
     date: "23/06/2020",
-    category: "Méthodologie",
+    category: "Méthodologie"
   },
   {
     subject: "Cycle en V / Crystal Clear",
     date: "24/06/2020",
-    category: "Méthodologie",
+    category: "Méthodologie"
   },
   { subject: "Peer programming", date: "25/06/2020", category: "Méthodologie" },
   { subject: "WEB 3.0", date: "26/06/2020", category: "CULTURE WEB" },
   {
     subject: "Extreme programming",
     date: "29/06/2020",
-    category: "Méthodologie",
+    category: "Méthodologie"
   },
   {
     subject: "Egoless programming",
     date: "30/06/2020",
-    category: "Méthodologie",
+    category: "Méthodologie"
   },
   { subject: "WAI", date: "01/07/2020", category: "WEB" },
   {
     subject: "Crypto & BC, les sites et newsletters",
     date: "02/07/2020",
-    category: "CULTURE WEB",
+    category: "CULTURE WEB"
   },
   { subject: "Tailwind css", date: "03/07/2020", category: "DEV WEB" },
   { subject: "VR", date: "06/07/2020", category: "Technologie" },
@@ -53,7 +53,7 @@ const veilles = [
   {
     subject: "Benchmark Bootstrap vs les concurrents",
     date: "13/07/2020",
-    category: "DEV",
+    category: "DEV"
   },
   { subject: "Cypherpunk", date: "15/07/2020", category: "CULTURE WEB" },
   { subject: "Deep Web", date: "16/07/2020", category: "Web" },
@@ -82,5 +82,5 @@ const veilles = [
   { subject: "Digital Marketing", date: "21/09/2020", category: "Culture Web" },
   { subject: "React Native", date: "25/09/2020", category: "DEV" },
   { subject: "Simplicity", date: "28/09/2020", category: "DEV BC" },
-  { subject: "Social Blockchain", date: "30/09/2020", category: "Blockchain" },
-]
+  { subject: "Social Blockchain", date: "30/09/2020", category: "Blockchain" }
+];
