@@ -71,7 +71,7 @@ const veilles = [
   { subject: "ReactJs", date: "04/08/2020", category: "DEV" },
   { subject: "Node.Js", date: "06/08/2020", category: "DEV" },
   { subject: "TDD", date: "12/08/2020", category: "DEV" },
-  { subject: "CrowdFunding", date: "31/08/2020", category: "Entrepreneuriat" },
+  { subject: "CrowdFunding", date: "31/08/2020", category: "Entreprenariat" },
   { subject: "Python", date: "01/09/2020", category: "DEV" },
   { subject: "Le Hacking", date: "02/09/2020", category: "Culture Web" },
   { subject: "Golang", date: "03/09/2020", category: "DEV" },
