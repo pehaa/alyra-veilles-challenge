@@ -2,8 +2,15 @@
 
 La référence [veilles.mp4](https://wptemplates.pehaa.com/assets/alyra/veilles.mp4) - vous la trouverez aussi dans le dossier `assets` avec quelques captures d'écran en plus.
 
-Vous utiliser bootstrap 5 pour les styles de ce document, vous pouvez personnaliser le rendu.
+Vous utilisez bootstrap 5 pour les styles de ce document, vous pouvez personnaliser le rendu.
 Mise en page est libre mais vous devez penser à l'expérience utilisateur.
+
+Vous utilisez la bibliothèque JavaScript - Moment.js et son extension moment-with-locales
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js" />
+<script src=" https://momentjs.com/downloads/moment-with-locales.min.js />
+```
 
 Fonctionnalités à mettre en place :
 
