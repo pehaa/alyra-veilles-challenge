@@ -8,8 +8,8 @@ Mise en page est libre mais vous devez penser à l'expérience utilisateur.
 Vous utilisez la bibliothèque JavaScript - Moment.js et son extension moment-with-locales
 
 ```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js" />
-<script src="https://momentjs.com/downloads/moment-with-locales.min.js />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+<script src="https://momentjs.com/downloads/moment-with-locales.min.js></script>
 ```
 
 Fonctionnalités à mettre en place :
