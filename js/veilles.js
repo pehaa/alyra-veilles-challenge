@@ -103,3 +103,6 @@ function allCategories(list) {
   return listCategoryUnique
 }
 const uniqueCategory = allCategories(entries)
+
+
+

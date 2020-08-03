@@ -70,7 +70,7 @@ function activateFilterByCategory() {
 
 activateFilterByCategory()
 
-function activateFilterByDate() {
+/*function activateFilterByDate() {
     const selectDa = document.getElementById("filterDate")
     uniqueCategory1.sort()
 
@@ -87,5 +87,4 @@ function activateFilterByDate() {
     })
 }
 
-activateFilterByDate()
-
+activateFilterByDate()*/

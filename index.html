@@ -24,16 +24,49 @@
 
     </header>
     <main>
-        <div class="input-group  mb-3">
-            <label for="filterCategory" class="input-group-text ml-5">
-                Catégories
-            </label>
-            <select id="filterCategory" name="filterCategory" class="form-select mr-5">
-                <option value="toutes les veilles" selected>Toutes les Veilles</option>
-            </select>
+        <div class='col-lg-6'>
+            <div class='col-lg-6'><label for="mode" class="p-3">
+                    <input type="checkbox" id="mode" class="form-check-input mr-2" />
+                    Veilles à venir
+                </label></div>
+            <div class='dropdown col-lg-6'>
+                <script src="js/veilles.js"></script>
+                <button class='btn btn-secondary dropdown-toggle mb-2' type='button' id='dropdownMenuButton'
+                    data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                    Trier par :
+                </button>
+                <div class='dropdown-menu' aria-labelledby='dropdownMenuButton'>
+                    <a class='dropdown-item' href='javascript:insertVeille(entries.sort(function (a, b) {
+      
+                  a = a.date.split("/");
+                  b = b.date.split("/");
+                  return a[2] - b[2] || a[1] - b[1] || a[0] - b[0];
+                }))'>par Date</a>
+                    <a class='dropdown-item'
+                        href='javascript:insertVeille(entries.sort((a, b) => (a.subject > b.subject ? 1 : -1)))'>de
+                        A à
+                        Z</a>
+
+                    <a class='dropdown-item'
+                        href='javascript:insertVeille(entries.sort((a, b) => (a.subject > b.subject ? -1 : 1)))'>de
+                        Z à
+                        A</a>
+                </div>
+            </div>
+        </div>
+        <div class='col-lg-6'>
+            <div class="input-group  mb-3 ">
+                <label for="filterCategory" class="input-group-text ml-5">
+                    Catégories
+                </label>
+                <select id="filterCategory" name="filterCategory" class="form-select mr-5">
+                    <option value="toutes les veilles" selected>Toutes les Veilles</option>
+                </select>
+            </div>
         </div>
         <div id="grid-container">
         </div>
+
     </main>
     <!--charge moment.js pour gérer les formats de dates-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
