@@ -5,8 +5,8 @@ dateNow.locale("fr")
 const date = document.getElementById("date")
 console.log(dateNow)
 
-
 let filterEntries = "toutes les veilles"
+
 
 function insertVeille() {
     const ulEl = document.createElement("ul")
@@ -58,3 +58,23 @@ function activateFilterByCategory() {
 }
 
 activateFilterByCategory()
+
+function activateFilterByDate() {
+    const selectDa = document.getElementById("filterDate")
+    uniqueCategory1.sort()
+
+
+    for (let date of uniqueCategory1) {
+        const option = document.createElement("option")
+        option.textContent = date
+        option.value = date
+        selectDa.append(option)
+    }
+    selectDa.addEventListener("change", () => {
+        filterEntries = selectDa.value
+        insertVeille()
+    })
+}
+
+activateFilterByDate()
+
